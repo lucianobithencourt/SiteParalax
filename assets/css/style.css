@@ -5,3 +5,8 @@
     padding: 0px;
 }
 
+main > p {
+    text-align: center;
+    width: 100px;
+    margin: auto;
+}
