@@ -28,16 +28,33 @@ color: black;
 }
 
 .imagem{
+    background-size: cover;
     background-color:rgba(0, 0, 0, 0.568);
     color: white;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
 }
 
 .imagem > p {
-    background-color:rgba(0, 0, 0, 0.363);
+    background-color:rgba(0,0,0,0.514);
     display: inline-block;
     padding:5px;
+    
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
 
 }
+
+#img01 {
+    background-image: url(../img/background001.jpg);
+    background-position: right center;
+    
+
+    }
+    
+    #img02{
+    background-image: url(../img/background002.jpg);
+    
+    }
 
 /* geral */
 html, body {
@@ -93,6 +110,14 @@ section{
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 1em;
+}
+
+
+
+
+
 /* footer */
 
 footer > p {
@@ -103,5 +128,5 @@ footer > p {
 }
 
 footer {
-    background-color:black;
+    background-color:rgb(86, 4, 102);
 }
