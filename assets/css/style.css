@@ -5,126 +5,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 
+/* CONFIGURAÇÕES GERAIS */
 *{
     margin: 0px;
     padding: 0px;
     font-size: 1em;
 }
 
-
 :root {
 
-    /* fontesSite */
+    /* fontes especificas do Site */
     --fonte1:Verdana, Geneva, Tahoma, sans-serif;
     --fonte2:'Passion One', cursive;
     --fonte3:'Sriracha', cursive;
 }
 
-/* classes e ids */
-.normal {
-background-color:white;
-color: black;
-
-
-}
-
-.imagem{
-    background-size: cover;
-    background-color:rgba(0, 0, 0, 0.568);
-    color: white;
-    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
-    background-attachment: fixed;
-}
-
-.imagem > p {
-    background-color:rgba(0,0,0,0.514);
-    display: inline-block;
-    padding:5px;
-    
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
-
-}
-
-#img01 {
-    background-image: url(../img/background001.jpg);
-    background-position: right center;
-    
-
-    }
-    
-    #img02{
-    background-image: url(../img/background002.jpg);
-    
-    }
-
-/* geral */
-html, body {
-    font-family: var(--fonte1);
+html,body {
     min-height: 100vh;
-    background-color: #F8AFB6;
 }
+/* -------------------------------------------- */
 
-/* Header */
+/* CABEÇALHO */
 
 header {
     background-color: black;
-    color:white;
+    color: white;
     text-align: center;
-
 }
 
 header > h1 {
-    padding-top: 50px;
-    font-variant: small-caps;
-    font-family: var(--fonte2);
-    font-size: 10vw;
-
+padding: 50px;
+font-variant: small-caps;
 }
 
 header > p {
     padding-bottom: 50px;
-
+    
 }
-
-/* link */
+/* LINK */
 
 a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 a:hover {
     text-decoration: underline;
+    
+}
+/* CLASSES*/
+
+.normal {
+background-color: rgb(255,255,255);
 }
 
-/* section */
-section{
+.imagem-fundo{
+background-color:grey
+}
+
+.imagem-fundo > p {
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    width: 400px;
+
+}
+
+/* SECTIONS */
+
+section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte3);
-    font-size: 3.5vw;
-}
-
-section > p {
-    padding-bottom: 1em;
 }
 
 
 
 
-
-/* footer */
-
-footer > p {
-    color: white;
-    padding: 8px;
-    text-align: center;
-
-}
-
+/* RODAPE */
 footer {
-    background-color:rgb(86, 4, 102);
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
+
+
