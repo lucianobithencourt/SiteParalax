@@ -20,10 +20,11 @@
     --fonte3:'Sriracha', cursive;
 }
 
-/* classes */
+/* classes e ids */
 .normal {
 background-color:white;
 color: black;
+
 
 }
 
@@ -60,11 +61,8 @@ color: black;
 html, body {
     font-family: var(--fonte1);
     min-height: 100vh;
-    background-color: darkgrey;
-
+    background-color: #F8AFB6;
 }
-
-
 
 /* Header */
 
