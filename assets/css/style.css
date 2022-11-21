@@ -22,6 +22,8 @@
 
 html,body {
     min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
 }
 /* -------------------------------------------- */
 
@@ -34,12 +36,18 @@ header {
 }
 
 header > h1 {
-padding: 50px;
+padding-top: 50px;
 font-variant: small-caps;
+font-family: var(--fonte2);
+font-size: 9.5vw;
+
+
 }
 
 header > p {
     padding-bottom: 50px;
+    font-size: 0.9em;
+
     
 }
 /* LINK */
@@ -67,7 +75,9 @@ background-color:grey
 .imagem-fundo > p {
     background-color: rgba(0, 0, 0, 0.479);
     color: white;
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
+    
 
 }
 
@@ -78,6 +88,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 5vw;
 }
 
 
